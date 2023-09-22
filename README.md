@@ -1,5 +1,7 @@
 # solo: journal
 
+[DEMO SOLO HERE](https://solo-journal.vercel.app/)
+
 this app is under construction. feedback highly encouraged. 
 
 ## use on devnet
