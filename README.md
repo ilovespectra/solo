@@ -2,6 +2,19 @@
 
 this app is under construction. feedback highly encouraged. 
 
+## use on devnet
+
+no signature requests will be made, and no wallet functionality beyond wallet-gating has been implemented
+
+### to-do
+
+- figure out github secrets to add firebase config and go public 
+- fix wallet and browser compatibility issues / "it was working on devnet!"
+- add view transaction history + trade journaling prompts
+
+
+**this dapp is a rewrap of the solana [pay scaffold](https://github.com/solana-labs/solana-pay-scaffold)**
+
 ## Getting Started
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
