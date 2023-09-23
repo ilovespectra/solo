@@ -11,7 +11,7 @@ no signature requests will be made, and no wallet functionality beyond wallet-ga
 ### to-do
 
 - figure out github secrets to add firebase config and go public 
-- fix wallet and browser compatibility issues / "it was working on devnet!"
+- fix wallet and browser compatibility issues / "it was working on localhost!"
 - add view transaction history + trade journaling prompts
 - integrate shadow storage solution to decentralize and obfuscate entries 
 
