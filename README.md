@@ -22,6 +22,28 @@ no signature requests will be made, and no wallet functionality beyond wallet-ga
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Preparation
+
+in order to run this locally, you'll need to replace the following line in `Am.tsx`, `Freewrite.tsx`, `Pm.tsx`, and `ViewEntries.tsx` with your own firebase config:
+
+replace-
+```
+const firebaseConfig = require('./firebase-config.json'); // Read Firebase config from the file
+```
+with-
+```
+const firebaseConfig = {
+        apiKey: "YOUR_API_KEY",
+        authDomain: "YOUR_AUTH_DOMAIN",
+        projectId: "YOUR_PROJECT_ID",
+        storageBucket: "YOUR_STORAGE_BUCKET",
+        messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+        appId: "YOUR_APP_ID",
+        measurementId: "YOUR_MEASUREMENT_ID"
+    };
+```
+
+
 ## Installation
 
 ```bash
