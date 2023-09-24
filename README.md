@@ -14,7 +14,9 @@ no signature requests will be made, and no wallet functionality beyond wallet-ga
 - fix wallet and browser compatibility issues / "it was working on localhost!"
 - add view transaction history + trade journaling prompts
 - integrate shadow storage solution to decentralize and obfuscate entries 
+- helius / xray transaction/asset browser - api config woes
 - add nft/collectibles notes/reclection entry for notes on the drop/art/community or otherwise 
+- create your own templates - checklist to select which templates are shown
 
 **this dapp is a rewrap of the solana [pay scaffold](https://github.com/solana-labs/solana-pay-scaffold)**
 
